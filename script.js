@@ -1,9 +1,9 @@
 async function createModel() {
-    // const checkpointURL = "https://estevesc90.github.io/teachablemachine_voice_saludo//modelo/model.json"; // Ruta server
-    // const metadataURL = "https://estevesc90.github.io/teachablemachine_voice_saludo//modelo/metadata.json"; // Ruta server
+    const checkpointURL = "https://estevesc90.github.io/teachablemachine_voice_saludo//modelo/model.json"; // Ruta server
+    const metadataURL = "https://estevesc90.github.io/teachablemachine_voice_saludo//modelo/metadata.json"; // Ruta server
 
-    const checkpointURL = "http://localhost/teachmachine3/modelo/model.json"; // Ruta local
-    const metadataURL = "http://localhost/teachmachine3/modelo/metadata.json"; // Ruta local
+    // const checkpointURL = "http://localhost/teachmachine3/modelo/model.json"; // Ruta local
+    // const metadataURL = "http://localhost/teachmachine3/modelo/metadata.json"; // Ruta local
 
     const recognizer = speechCommands.create(
         "BROWSER_FFT",
